@@ -59,7 +59,7 @@ const App = () => {
 
             setUsers((prevUsers) => [...prevUsers, ...usersWithID]);
 
-            Alert.alert('Users Created', '2 Users berhasil ditambahkan');
+            Alert.alert('Users Created', 'Users berhasil ditambahkan');
         } catch (error) {
             console.log('Post Error:', error);
         }
@@ -153,7 +153,7 @@ const App = () => {
                 ListHeaderComponent={
                     <>
                         <Text style={styles.header}>
-                            Reqres Users
+                            API dari Reqres.in - Julhan
                         </Text>
 
                         <TouchableOpacity style={styles.createButton} onPress={postData}>

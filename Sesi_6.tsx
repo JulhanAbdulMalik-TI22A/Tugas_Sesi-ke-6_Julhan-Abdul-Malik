@@ -63,7 +63,7 @@ const App = () => {
     );
 
     return (
-        <ScrollView contentContainerStyle={styles.container}>
+        <View style={styles.container}>
             <Text style={styles.header}>Hello World!</Text>
 
             <TouchableOpacity style={styles.button} onPress={postData}>
@@ -76,7 +76,7 @@ const App = () => {
                 keyExtractor={(item) => item.id.toString()}
                 contentContainerStyle={styles.list}
             />
-        </ScrollView>
+        </View>
     );
 };
 
